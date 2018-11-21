@@ -102,8 +102,20 @@ public:
 };
 
 int main() {
-    UserArray<int> test(5);
-    test.display();
-    cout << endl << "Index of element is: "<< test.findIndex(3);
+    UserArray<int> testInt(5);
+    testInt.display();
+    cout << endl << "Index of element is: "<< testInt.findIndex(3) << endl;
+    UserArray<float> testFloat(5);
+    testFloat.display();
+    cout << endl << "Index of element is: "<< testFloat.findIndex(3) << endl;
+    UserArray<double> testDouble(5);
+    testDouble.display();
+    cout << endl << "Index of element is: "<< testDouble.findIndex(3) << endl;
+    UserArray<long> testLong(5);
+    testLong.display();
+    cout << endl << "Index of element is: "<< testLong.findIndex(3) << endl;
+    UserArray<short> testShort(5);
+    testShort.display();
+    cout << endl << "Index of element is: "<< testShort.findIndex(3) << endl;
     return 0;
 }
